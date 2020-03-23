@@ -11,6 +11,14 @@ public class Star extends Actor
     private int x, y, speed, size;
     private Color color;
     
+   public int getX()
+    {
+        return x;
+    }
+   public int getY()
+    {
+        return y;
+    }
     public Star(int speed, Color color, int worldWidth, int worldHeight)
     {
       size = 1 + Greenfoot.getRandomNumber(4);
